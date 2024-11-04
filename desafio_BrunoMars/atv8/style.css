@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn.getcrowder.com/images/cf6c300b-d9ab-48ae-8cce-26ae364dc0e0-bruno-mars1920x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 1em;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fixed {
+    width: 50vh;
+    height: 50vh; 
+    background: rgba(0, 0, 0, 0.52);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1{
+    font-size: small;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin-top: -20px;
+    width: 300px;
+    height: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 25px;    
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+input{
+    width: 300px;
+    height: 100px;
+}
+
+input::placeholder{
+    color:#a0a0a0;
+    opacity: 0.8;
+}
+
+label{
+    margin-bottom: -40px;
+}
+select {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#fff;
+    color: black;
+    margin-top: 20px;
+}
+
+button{
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px;
+    background-color:darkmagenta;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color:darkorchid;
+    color: #f4f4f4;
+}
+
+echo{
+    align-items: center;
+}
